@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E023495A2513BE78007D84E0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02349592513BE78007D84E0 /* DetailViewController.swift */; };
 		E02AA7EB25127A7600DC82CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02AA7EA25127A7600DC82CB /* AppDelegate.swift */; };
 		E02AA7ED25127A7600DC82CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02AA7EC25127A7600DC82CB /* SceneDelegate.swift */; };
 		E02AA7EF25127A7600DC82CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02AA7EE25127A7600DC82CB /* ViewController.swift */; };
 		E02AA7F225127A7600DC82CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02AA7F025127A7600DC82CB /* Main.storyboard */; };
 		E02AA7F425127A7700DC82CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02AA7F325127A7700DC82CB /* Assets.xcassets */; };
 		E02AA7F725127A7700DC82CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02AA7F525127A7700DC82CB /* LaunchScreen.storyboard */; };
+		E02AA7FF25127D8E00DC82CB /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02AA7FE25127D8E00DC82CB /* Petition.swift */; };
+		E02AA80125127E4A00DC82CB /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02AA80025127E4A00DC82CB /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E02349592513BE78007D84E0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E02AA7E725127A7600DC82CB /* project 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02AA7EA25127A7600DC82CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E02AA7EC25127A7600DC82CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		E02AA7F325127A7700DC82CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E02AA7F625127A7700DC82CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E02AA7F825127A7700DC82CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02AA7FE25127D8E00DC82CB /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		E02AA80025127E4A00DC82CB /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				E02AA7EA25127A7600DC82CB /* AppDelegate.swift */,
 				E02AA7EC25127A7600DC82CB /* SceneDelegate.swift */,
 				E02AA7EE25127A7600DC82CB /* ViewController.swift */,
+				E02349592513BE78007D84E0 /* DetailViewController.swift */,
+				E02AA7FE25127D8E00DC82CB /* Petition.swift */,
+				E02AA80025127E4A00DC82CB /* Petitions.swift */,
 				E02AA7F025127A7600DC82CB /* Main.storyboard */,
 				E02AA7F325127A7700DC82CB /* Assets.xcassets */,
 				E02AA7F525127A7700DC82CB /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E02AA7EF25127A7600DC82CB /* ViewController.swift in Sources */,
+				E02AA7FF25127D8E00DC82CB /* Petition.swift in Sources */,
 				E02AA7EB25127A7600DC82CB /* AppDelegate.swift in Sources */,
+				E023495A2513BE78007D84E0 /* DetailViewController.swift in Sources */,
 				E02AA7ED25127A7600DC82CB /* SceneDelegate.swift in Sources */,
+				E02AA80125127E4A00DC82CB /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
