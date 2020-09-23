@@ -53,23 +53,28 @@ class ViewController: UITableViewController {
         let ac = UIAlertController(title: "Search", message: "Enter a search term", preferredStyle: .alert)
         ac.addTextField()
         
-        //guards against an error
         let searchAction = UIAlertAction(title: "ok", style: .default){
             [weak self, weak ac] action in
             guard let term = ac?.textFields?[0].text else {return}
             self?.search(term)
         }
+            
         ac.addAction(searchAction)
         present(ac, animated: true)
     }
     
     func search(_ term: String){
-        
-        searchPetition = petitions.filter {
-            $0.title.lowercased().contains(term) ||
-            $0.body.lowercased().contains(term)
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
             
+            guard let petitions = self?.petitions else {return}
+            
+            self?.searchPetition = petitions.filter {
+                $0.title.lowercased().contains(term) ||
+                $0.body.lowercased().contains(term)
+                
+            }
         }
+        
         
         tableView.reloadData()
     
